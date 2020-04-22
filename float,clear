@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>float</title>
+<style>
+
+   /*ul { float:right;}
+   li { float:left; border: 2px solid red;}
+
+    li { float:left;}
+    div { clear:both;}*/
+
+.a1 { background:pink;}
+.a1 div { float:left; border: 1px solid red;}
+.clear:after {content:""; display:block; clear:both;} 
+
+</style>
+</head>
+
+
+  <body>
+    <!-- <ul>
+       <li>홈&gt;</li>
+       <li>회사소개&gt;</li>
+       <li>상품소개&gt;</li>
+       <li>다운로드&gt;</li>
+     </ul>
+     <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+      <div>text</div>
+      <div>text2</div> -->
+
+   <div class="a1 clear">
+      <div>sample</div>
+      <div>sample2</div>
+   </div>
+
+
+  </body>
+</html>
