@@ -1,0 +1,202 @@
+
+{font : ;}
+
+ 
+
+ 
+
+font-family :
+
+글씨 종류지정
+
+{font-family: dotum;}
+
+ 
+
+ 
+
+font-size :
+
+글씨 크기 지정
+
+(px / em / pt / %로 표현)
+
+ 
+
+요즘 실무에서는
+
+14px 이상으로 사용하는데
+
+웹 접근성에서 14px 이상 되어야
+
+사용할 수 있는 색상의 범위가
+
+있기 때문
+
+ 
+
+ 
+
+ 
+
+font-weight :
+
+글씨 굵기 지정
+
+(normal / bold 등으로 표현)
+
+ 
+
+ 
+
+text-align :
+
+글씨 / inline / inline-block 요소들의
+
+가로 정렬
+
+(left / canter / right /justify 로 표현)
+
+ 
+
+ 
+
+ 
+
+vertical-align :
+
+inline 요소와 텍스트.
+
+inline요소와 inline 요소간의
+
+세로 정렬
+
+(top / middle/ bottom로 표현)
+
+ 
+
+ 
+
+color :
+
+글씨 색상
+
+(색상 명이나 색 기호로 표현)
+
+{color: red; / #f00 / transparent)
+
+ 
+
+색상을 표현할 때 쓰는
+
+6자리 숫자의 뜻은
+
+ 
+
+R 두 자리
+
+G 두 자리
+
+B 두자리
+
+ 
+
+ 
+
+예)
+
+#000000 (#000)
+
+빛이 없다는 뜻 = 검정
+
+ 
+
+#ffffff (#fff) = 흰색
+
+ 
+
+#ff0000 = red
+
+ 
+
+transparent : 투명
+
+ 
+
+ 
+
+line-height :
+
+줄 간격.
+
+{line-height: 40px;}
+
+ 
+
+ 
+
+text-indent :
+
+들여쓰기.
+
+{text-indent: 20px;}
+
+ 
+
+해당 줄에만 적용되고
+
+한줄 텍스트에
+
+여백을 주려고 할 때
+
+padding 대용으로
+
+많이 씀.
+
+ 
+
+수치를 -로 주는 경우
+
+내려쓰기가 되는데 주로
+
+글씨를 숨겨둘 때 많이 씀
+
+ 
+
+ 
+
+ 
+
+letter-spacing :
+
+자간
+
+ 
+
+수치는 많이 줘야 -2%.
+
+ 
+
+보통은 -1% 내외
+
+소수점으로 값을 준다.
+
+ 
+
+주의 사항으로
+
+포토샾(PSD)의
+
+문자패널 수치와는
+
+큰 차이가 있으니
+
+협업 시 주의하자
+
+ 
+
+text-decoration :
+
+텍스트 꾸밈
+
+(none/underline/overline/line-through)
