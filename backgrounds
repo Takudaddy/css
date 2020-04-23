@@ -1,0 +1,8 @@
+div {
+     background-image:url('image2.PNG'); background-repeat:no-repeat;
+     background-color:rgba(255,0,0,0.3); background-position:20% 50px;
+     width:500px; height:500px; border: 10px solid red;}
+     
+     
+     
+     div { background:url('image2.PNG') no-repeat right 50% #f00;}
