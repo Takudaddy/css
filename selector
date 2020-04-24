@@ -1,0 +1,446 @@
+<div>
+ 
+
+ 
+
+ 
+
+ⓐ div div { }
+
+div 요소의 자손이 div.
+
+ 
+
+<div>
+
+<div> </div>
+
+<div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓑ div.div { }
+
+div 요소의 class 명이 div.
+
+ 
+
+<div class="div"></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓒ div .div { }
+
+div 요소 자손의 class 명이 div.
+
+ 
+
+<div>
+
+<p class="div"></p>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓓ div#div { }
+
+div 요소의 id 명이 div.
+
+ 
+
+<div id="div'></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓔ div #div { }
+
+div 요소 자식의 id 명이 div.
+
+ 
+
+<div>
+
+<p id="div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓕ div, p { }
+
+div 와 p 요소를 함께
+
+선택할 때 쉼표를 씀.
+
+ 
+
+<div></div>
+
+<p></p>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓖ div.div p#div { }
+
+div의 class명이 div,
+
+그 div 요소의 자식이 p,
+
+그 p의 id 값이 div.
+
+ 
+
+<div class="div">
+
+<p id="div"></p>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓗ div + div { }
+
+요소 바로 다음 요소를
+
+함께 선택할 때 사용
+
+ 
+
+<div></div>
+
+<div></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ⓘ div > div { }
+
+요소의 바로 아래
+
+자식 선택자를
+
+선택할 때 사용.
+
+ 
+
+ 
+
+<div>
+
+<div></div>
+
+<div></div>
+
+<div></div>
+
+<div></div>
+
+</div>
+
+ 
+
+다른 샘플
+
+ 
+
+<style>
+div.a span { color: red;}
+</style>
+</head>
+<body>
+
+<div class="a">
+   <span> text1 </span>
+   <div> text2 
+        <span> text2-1 </span>  
+   </div>
+</div>      
+ 
+
+ 
+
+위 경우
+
+ 
+
+div.a span { color: red;}
+
+ 
+
+라고 입력했으므로
+
+모든 span의 색이 변하게 된다.
+
+ 
+
+부모 태그 바로 아래의 span만
+
+변하게 하고 싶다면
+
+ 
+
+div.a> span { color: red;}
+
+ 
+
+ 
+
+ 
+
+ 
+
+input[type=""] { }
+
+ 
+
+ 
+
+input 요소의
+
+속성이나 타입이 다양한데
+
+ 
+
+연속되는 input 요소의 중
+
+특정 input 요소에만
+
+효과를 주고 싶을 때 사용
+
+ 
+
+ 
+
+샘플 코드)
+
+ 
+
+<style> input [type="text"] { border: 1px solid red;} 
+</style> 
+</head> 
+
+<body> 
+<input type="text" title=""> 
+<input type="radio" name=""> 
+<input type="checkbox" name=""> 
+<input type="password" name="">
+ 
+
+ 
+
+위 경우
+
+text 속성에만 적용.
+
+ 
+
+ 
+
+속성을 type이 아닌
+
+title이나 name으로
+
+적용할 수 있다.
+
+ 
+
+ 
+
+샘플 코드
+
+ 
+
+<style>
+input [name] { margin:30px;}
+</style>
+</head>
+<body>
+
+<input type="text" title="">
+<input type="radio" name="">
+<input type="checkbox" name="">
+<input type="password" title="">
+ 
+
+ 
+
+ 
+
+위 예시는 속성을
+
+input [name] { }
+
+으로 사용한 예
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+기타 효과
+
+ 
+
+ 
+
+① a.hover { }
+
+a 요소에 마우스를 올리면
+
+효과가 나타난다
+
+ 
+
+ 
+
+ 
+
+② a: active { }
+
+a 요소를 클릭할 때
+
+효과가 나타난다
+
+ 
+
+ 
+
+ 
+
+③ a: focus { }
+
+a 요소에 키보드(tab 키) 가
+
+진입할 때 설정한 효과가 나타난다
+
+ 
+
+ 
+
+ 
+
+사용 예시)
+
+ 
+
+ 
+
+ 
+
+ 
+
+<style>
+     a:focus {font-size:50px;}
+</style>
+</head>
+<body>
+
+    <a href="#a">test</a><br>
+    <a href="#a">test</a><br>
+    <a href="#a">test</a><br>
+    <a href="#a">test</a>
+
+  </body>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+div div:first-child{ }
+
+ 
+
+ 
+
+자식들이 반복되는 경우
+
+첫 번째 자식에게만 효과를
+
+주고 싶을 때 사용
+
+ 
+
+ 
+
+사용 예시)
+
+ 
+
+<style>
+div div:first-child { color:red;}
+</style>
+</head>
+
+<body>
+<div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+ 
+
+ 
+
+대표적으로
+
+ul, ol의 li 들
+
+th, tr의 td 들에
+
+적용할 수 있다.
