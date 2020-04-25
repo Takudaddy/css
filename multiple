@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+
+
+<body>
+
+  <style>
+    body {
+      padding: 40px;
+    }
+
+    .game {
+      width: 300px;
+      height: 300px;
+      border: 2px solid red;
+
+      background: url('image2.PNG') no-repeat top right,
+        url('타쿠-1.jpg') repeat-x 30px 50px,
+        url('타쿠-3.jpg') no-repeat censter,
+        url('image.jpg') repeat-x center bottom;
+
+    }
+
+    div {
+      width: 500px;
+      height: 500px;
+      border: 1px solid black;
+
+      background-image: url(타쿠1), url(타쿠2), url(타쿠3);
+      background-repeat: repeat-x, no-repeat, no-repeat;
+      background-position: 30px 50px, center, top right;
+
+    }
+  </style>
+
+  <div class="game"></div>
+
+</body>
+
+</html>
