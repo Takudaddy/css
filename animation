@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+
+<body>
+  <style>
+    div { position:relative;
+      width: 200px; height: 200px; border: 1px solid red;
+        animation-name: move;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-time-function: ease;
+        animation-direction: normal;
+    }
+     @keyframes move {
+          0% { left: 0; background:gray;}
+          100% { left: 300px; background: red;}
+    }
+
+    p { width:300px; height:200px; border: 1px solid red;
+        animation: change 3s ease 0s infinite alternate;
+    }
+        @keyframes change {
+          0% { background: white;}
+          50% { background: pink;}
+          100% { background: red;}
+        }
+  </style>
+
+
+  <div> </div>
+  <p> </p>
+</body>
+
+</html>
