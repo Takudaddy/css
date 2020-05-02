@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+
+<style>
+body { padding:100px; background: pink;}
+div  { width:200px; height: 200px; border: 1px solid red;
+       background: red;
+       transform: rotate(deg);
+       transition: all 0.5s;
+}
+div:hover {transform: rotateY(90deg);}
+
+.sample { width:200px; height: 200px; border: 1px solid red;
+          background: rgba(255,0,0,0.7);
+          transform: scale(1);
+          transition: all 0.5s, background;
+}
+.sample:hover {transform: scaleY(1.5); background: red;}
+
+</style>
+
+
+<div></div>
+<br><br><br><br><br><br>
+<div class="sample">
+
+</div>
+
+
+
+</body>
+</html>
