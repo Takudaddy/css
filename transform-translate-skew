@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+
+<style>
+body { padding:100px; background: pink;}
+div { width:200px; height: 200px; border: 1px solid red;
+       background: red;
+       transform: rotate(deg);
+       transition: all 0.5s;
+}
+div:hover {transform: rotateY(90deg);}
+
+.sample { width:200px; height: 200px; border: 1px solid red;
+          background: rgba(255,0,0,0.7);
+          transform: scale(1);
+          transition: all 0.5s, background;
+}
+.sample:hover {transform: scaleY(1.5); background: red;}
+
+
+.sample2 {width: 200px; height: 200px; border: 1px solid red;
+          background: purple;
+          transition: all 0.5s;
+          transform: skew(0deg), background;
+          }
+  .sample2:hover {transform:skew(20deg, 20deg); background: gray;}
+
+
+.sample3: { width: 200px; height:200px; border: 1px solid red;
+          background: gray;
+          transition: all 0.5s;
+          transform: translate(), background;
+          }
+.sample3:hover { transform: translateX(20%  ); background: gray;}
+
+
+/*.sample4 { width: 200px; height: 200px; border: 1px solid red;
+           position: absolute; left: 50%; top: 50%;
+           margin: -101px 0 0 -101px;}*/
+
+.sample4 { width: 200px; height: 200px; border: 1px solid red;
+          position: absolute; left: 50%; top: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+</style>
+
+
+<div></div>
+<br><br><br><br><br><br>
+
+<div class="sample"></div>
+<br><br><br><br><br><br>
+
+<div class="sample2"></div>
+<br><br><br><br><br><br>
+
+<div class="sample3"></div>
+<br><br><br><br><br><br>
+
+<div class="sample4"></div>
+
+
+</body>
+</html>
