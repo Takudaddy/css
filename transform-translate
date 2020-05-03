@@ -8,28 +8,7 @@
 
 
 <style>
-body { padding:100px; background: pink;}
-div { width:200px; height: 200px; border: 1px solid red;
-       background: red;
-       transform: rotate(deg);
-       transition: all 0.5s;
-}
-div:hover {transform: rotateY(90deg);}
 
-.sample { width:200px; height: 200px; border: 1px solid red;
-          background: rgba(255,0,0,0.7);
-          transform: scale(1);
-          transition: all 0.5s, background;
-}
-.sample:hover {transform: scaleY(1.5); background: red;}
-
-
-.sample2 {width: 200px; height: 200px; border: 1px solid red;
-          background: purple;
-          transition: all 0.5s;
-          transform: skew(0deg), background;
-          }
-  .sample2:hover {transform:skew(20deg, 20deg); background: gray;}
 
 
 .sample3: { width: 200px; height:200px; border: 1px solid red;
