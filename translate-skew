@@ -1,0 +1,9 @@
+.sample:hover {transform: scaleY(1.5); background: red;}
+
+
+.sample2 {width: 200px; height: 200px; border: 1px solid red;
+          background: purple;
+          transition: all 0.5s;
+          transform: skew(0deg), background;
+          }
+  .sample2:hover {transform:skew(20deg, 20deg); background: gray;}
