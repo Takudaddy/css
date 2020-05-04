@@ -1,0 +1,49 @@
+.chk input {position:absolute; left:-100000px;}
+.chk input + label:before {
+     content:"v"; display:inline-block;
+     width:10px; height: 10px; border: 1px solid red;
+     color:transparent; vertical-align:2px; line-height:5px;}
+.chk input:checked +label:before {color:red; }
+.chk input:checked + label {color:red; font-weight: bold;}
+
+
+
+
+.b .rad input {flex1; position: absolute; left:-3000px;}
+.b .rad input:checked + label {
+    color:red; font-weight: bold;
+    padding: 0 0 0 30px; color:red;
+    display:inline-block;
+    height:30px; font-size: 15px;
+    line-height: 30px;
+    background:url(wel.jpg) no-repeat;}
+
+
+
+.b .rad2 input {flex2; position: absolute; left:-3000px;}
+.b .rad2 input:checked + label {
+    color:red; font-weight: bold;
+    padding: 0 0 0 30px; color:red;
+    display:inline-block;
+    height:30px; font-size: 15px;
+    line-height: 30px;
+    background:url(si.png) no-repeat; }
+
+
+</style>
+<div>캐릭터를 선택하세요 <br><br>
+<div class="chk">
+  <input type="checkbox" id="a1"><label for="a1">타쿠</label>
+  <input type="checkbox" id="a2"><label for="a2">시온</label>
+</div>
+</div>
+
+<br><br>
+<div class="b">
+   <div class="rad">
+         <input type="radio" id="b1"><label for="b1">타쿠</label>
+   </div>
+   <div class="rad2">
+         <input type="radio" id="b2"><label for="b2">시온</label>
+   </div>
+</div>
