@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<style>
+  body {background: pink; padding:50%;}
+
+
+
+  div.a { width:200px; height:200px; border: 1px solid red;
+        background: red;
+        transition: all 1.5s;}
+  div.a:hover {transform: rotate(360deg); background: purple;}
+
+
+  div.b { width:200px; height:200px; border: 1px solid red;
+        background: red;
+        transform: rotate(45deg);
+        transition: all 1.5s;}
+  div.b:hover {transform: rotate(-180deg); background: purple;}
+
+  div.c { width:200px; height:200px; border: 1px solid red;
+        background: red;
+        transition: all 1.5s;
+        }
+  div.c:hover {border-radius: 200px; background: purple;}
+
+  div.d { width:200px; height:200px; border: 1px solid red;
+        background: red;
+        transition: border-radius 1.5s;
+        }
+  div.d:hover {border-radius: 0 200px 0 200px; background: purple;}
+
+  div.e { width:200px; height:200px; border: 1px solid red;
+        background: red;
+        transition: border-radius 1.5s;
+        }
+  div.e:hover {border-radius: 200px 0 200px 0; background: purple;}
+
+  div.f { width:200px; height:200px; border: 1px solid red;
+        background: red; transform: rotate(45deg);
+        transition: border-radius 1.5s;
+        }
+  div.f:hover {border-radius: 200px 0 200px 0; background: purple;}
+
+  div.g { width:200px; height:200px; border: 1px solid red;
+        background: red; transform: rotate(90deg);
+        transition: border-radius 1.5s;
+        }
+  div.g:hover {border-radius: 200px 0 200px 0; background: purple;}
+
+</style>
+
+<div class="a">
+  <div class="b">
+    <div class="c">
+        <div class="d">
+           <div class="e">
+              <div class="f">
+                <div class="g">
+
+                </div>
+              </div>
+           </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>
