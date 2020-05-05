@@ -1,0 +1,30 @@
+
+a {display: block; position: relative; margin: 50px 0 0 200px;
+   width: 400px; height:100px; border: 1px solid black;
+   line-height: 100px; text-align: center; font-size:33px;
+   font-weight: bold; color:#000;
+   transition: all 0.8s;}
+a:hover {color:#fff;}
+
+a:before,
+a:after {content:""; position: absolute; top:0; z-index:-1;
+          width: 50%; height: 100%; background: #000;
+         transform: scaleX(0);
+         transition: transform 0.8s;}
+a:before {left: 0; transform-origin: left;}
+a:after {right: 0; transform-origin: right;}
+a:hover:before,
+a:hover:after {transform: scaleX(1);}
+a:hover:before {transform-origin: right;}
+a:hover:after {transform-origin: left;}
+</style>
+
+
+<div class="box">
+  <span></span>
+</div>
+
+<a href="#a">Button</a>
+
+  </body>
+</html>
