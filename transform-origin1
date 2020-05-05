@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+
+<style>
+  * {padding: 0; margin:0; text-decoration: none; list-style: none}
+
+  .box {
+        position: relative; left:55%; top:300px;
+        width: 200px; height: 200px; background: red;
+        transition: all 1s;
+
+        transform-origin: 80% 80%;
+
+       }
+
+   .box:hover { transform:rotate(180deg);}
+
+   .box span {
+       position:absolute; left:80%; top:80%;
+       width: 5px; height: 5px; background: purple;
+       border-radius : 100%;
+       transform: translate(-50%, -50%);
+       }
+
+
+
+</style>
+
+
+<div class="box">
+  <span></span>
+</div>
+
+
+  </body>
+</html>
