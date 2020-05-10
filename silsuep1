@@ -1,0 +1,72 @@
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+    <title>회사연혁</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta http-equiv="X-UA-Compatible"content="ie=edge"
+    <link rel="stylesheet" href="silsuep1.css">
+  </head>
+
+  <style>
+    * {padding: 0; margin: 0; list-style: none;}
+    body { padding:100px;}
+
+    .history h2 {position: relative; font-size: 33px color: #000; line-height: 1;}
+    .history h2:before {
+      content:""; position: absolute;
+      left:-48px; top:50%; transform: translateY(-50%);
+      width: 17px; height: 17px; border-radius: 100%;
+      background:#fff; border: 5px solid #ff5a2b;
+      box-sizing: border-box;}
+
+    .history div {position: relative; padding: 0 0 0 48px;}
+    .history div:before { content:""; position:absolute; left:8px; top:0;
+            width: 2px; height:100%; background:#ddd;}
+    .history div:first-child:before { top:10px; height:calc(100% - 10px);}
+
+
+    .history ol { padding: 20px 0 74px; }
+    .history li {font-size: 17px; color:#000; line-height: 29px;  }
+
+  </style>
+
+  <body>
+
+  <div class="history">
+     <div>
+       <h2>2020</h2>
+       <ol>
+         <li>기계학습(머신러닝) 엔진 '타쿠' 해외 투자 5조 유치</li>
+         <li>올해의 IT상 / 개발자상 / IT기업 최우수 부분 수상</li>
+         <li>올해 가장 입사하고 싶은 회사 1위</li>
+         <li>자수성가형 가장 존경하는 개발자 1위 선정</li>
+         <li>경제 발전을 위한 대통령과의 회담 초대 1순위 기업인 선정</li>
+         <li>한국을 빛낸 기업인 상 수상 / 한국을 빛낸 위인 500인 합류</li>
+         <li>차세대 딥러닝 엔진 '타쿠' Google 5000억 인수 제안 거절</li>
+         <li>자체개발 머신러닝 '타쿠'개발 성공</li>
+         <li>시온대디와 함께 개발 공부 시작</li>
+         <li>코로나로 인한 Lock-down 영향으로 학교가 문을 닫자 코딩공부 재시작</li>
+        </ol>
+     </div>
+
+     <div>
+       <h2>2019</h2>
+       <ol>
+         <li>네덜란드 유학 중 2개월 코딩 공부, 전설의 시작</li>
+         <li>유망한 드러머이자 뮤지션으로 인기몰이 중 돌연 공부 선언</li>
+       </ol>
+     </div>
+
+     <div>
+       <h2>2018</h2>
+       <ol>
+         <li>한국을 떠나 네덜란드에 가게 됨</li>
+         <li></li>
+       </ol>
+     </div>
+
+  </div>
+
+  </body>
+  <html>
